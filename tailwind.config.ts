@@ -83,9 +83,9 @@ export default {
         },
       },
       fontFamily: {
-        sans: ["var(--font-sans)"],
-        serif: ["var(--font-serif)"],
-        mono: ["var(--font-mono)"],
+        sans: ["Inter", "var(--font-sans)"],
+        serif: ["Libre Baskerville", "Georgia", "var(--font-serif)"],
+        mono: ["IBM Plex Mono", "var(--font-mono)"],
       },
       keyframes: {
         "accordion-down": {
