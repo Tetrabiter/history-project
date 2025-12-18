@@ -113,11 +113,11 @@ export function SourcesCatalog() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-serif text-3xl lg:text-4xl font-bold mb-4">
-            Sources & Bibliography
+            Источники и библиография
           </h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto">
-            Primary and secondary sources used in this historical analysis, 
-            organized by type and era.
+          <p className="text-muted-foreground max-w-2xl mx-auto font-serif">
+            Первичные и вторичные источники, используемые в этом историческом анализе, 
+            организованные по типам и периодам.
           </p>
         </div>
 
@@ -125,7 +125,7 @@ export function SourcesCatalog() {
           <div className="relative flex-1">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
             <Input
-              placeholder="Search sources..."
+              placeholder="Поиск источников..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="pl-10"
@@ -134,24 +134,24 @@ export function SourcesCatalog() {
           </div>
           <Select value={typeFilter} onValueChange={setTypeFilter}>
             <SelectTrigger className="w-full sm:w-40" data-testid="select-type-filter">
-              <SelectValue placeholder="Type" />
+              <SelectValue placeholder="Тип" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="all">All Types</SelectItem>
-              <SelectItem value="book">Books</SelectItem>
-              <SelectItem value="article">Articles</SelectItem>
-              <SelectItem value="archive">Archives</SelectItem>
+              <SelectItem value="all">Все типы</SelectItem>
+              <SelectItem value="book">Книги</SelectItem>
+              <SelectItem value="article">Статьи</SelectItem>
+              <SelectItem value="archive">Архивы</SelectItem>
             </SelectContent>
           </Select>
           <Select value={eraFilter} onValueChange={setEraFilter}>
             <SelectTrigger className="w-full sm:w-40" data-testid="select-era-filter">
-              <SelectValue placeholder="Era" />
+              <SelectValue placeholder="Период" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="all">All Eras</SelectItem>
-              <SelectItem value="imperial">Imperial</SelectItem>
-              <SelectItem value="soviet">Soviet</SelectItem>
-              <SelectItem value="mixed">Both</SelectItem>
+              <SelectItem value="all">Все периоды</SelectItem>
+              <SelectItem value="imperial">Империя</SelectItem>
+              <SelectItem value="soviet">СССР</SelectItem>
+              <SelectItem value="mixed">Оба</SelectItem>
             </SelectContent>
           </Select>
         </div>
@@ -205,7 +205,7 @@ export function SourcesCatalog() {
 
         {filteredSources.length === 0 && (
           <div className="text-center py-12">
-            <p className="text-muted-foreground">No sources match your filters.</p>
+            <p className="text-muted-foreground font-serif">Источников, соответствующих вашим фильтрам, не найдено.</p>
           </div>
         )}
       </div>

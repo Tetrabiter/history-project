@@ -17,24 +17,24 @@ export function HeroSection() {
           <div className="relative z-10 flex flex-col justify-center h-full p-8 lg:p-16">
             <div className="flex items-center gap-2 mb-4">
               <Factory className="w-6 h-6 text-amber-200" />
-              <span className="text-amber-200 font-mono text-sm tracking-wider uppercase">
-                1830s - 1913
+              <span className="text-amber-200 font-serif text-sm tracking-wide italic">
+                1830-е – 1913 г.
               </span>
             </div>
-            <h2 className="font-serif text-3xl lg:text-5xl font-bold text-white mb-4">
-              Imperial Capitalism
+            <h2 className="font-serif text-3xl lg:text-5xl font-bold text-white mb-4 italic">
+              Имперский капитализм
             </h2>
-            <p className="text-amber-100/90 text-lg leading-relaxed max-w-md mb-6">
-              Market-driven, state-guided industrialization through railways, 
-              textiles, and foreign investment. Rapid growth with Western dependency.
+            <p className="text-amber-100/90 text-lg leading-relaxed max-w-md mb-6 font-serif">
+              Рыночная промышленность под государственным руководством через железные дороги, 
+              текстиль и иностранные инвестиции. Быстрый рост с западной зависимостью.
             </p>
             <Link href="/comparison">
               <Button
                 variant="outline"
-                className="w-fit bg-white/10 backdrop-blur-sm border-amber-200/30 text-white"
+                className="w-fit bg-white/10 backdrop-blur-sm border-amber-200/30 text-white font-serif"
                 data-testid="button-explore-imperial"
               >
-                Explore the Empire
+                Исследовать империю
                 <ArrowRight className="w-4 h-4 ml-2" />
               </Button>
             </Link>
@@ -50,24 +50,24 @@ export function HeroSection() {
           <div className="relative z-10 flex flex-col justify-center h-full p-8 lg:p-16">
             <div className="flex items-center gap-2 mb-4">
               <Hammer className="w-6 h-6 text-red-200" />
-              <span className="text-red-200 font-mono text-sm tracking-wider uppercase">
-                1928 - 1941
+              <span className="text-red-200 font-sans text-sm tracking-widest uppercase font-bold">
+                1928–1941
               </span>
             </div>
-            <h2 className="font-serif text-3xl lg:text-5xl font-bold text-white mb-4">
-              Soviet Dictatorship
+            <h2 className="font-sans text-3xl lg:text-5xl font-bold text-white mb-4 uppercase tracking-wide">
+              Советская диктатура
             </h2>
-            <p className="text-red-100/90 text-lg leading-relaxed max-w-md mb-6">
-              Forced state mobilization rejecting markets. Heavy industry and 
-              military complex at immense social cost. Autarky and war readiness.
+            <p className="text-red-100/90 text-lg leading-relaxed max-w-md mb-6 font-sans font-light">
+              Принудительная государственная мобилизация, отвергающая рынки. Тяжелая промышленность 
+              и военный комплекс огромной ценой. Автаркия и боевая готовность.
             </p>
             <Link href="/comparison">
               <Button
                 variant="outline"
-                className="w-fit bg-white/10 backdrop-blur-sm border-red-200/30 text-white"
+                className="w-fit bg-white/10 backdrop-blur-sm border-red-200/30 text-white font-sans font-bold uppercase tracking-wide"
                 data-testid="button-explore-soviet"
               >
-                Explore the USSR
+                СССР
                 <ArrowRight className="w-4 h-4 ml-2" />
               </Button>
             </Link>
@@ -83,14 +83,14 @@ export function HeroSection() {
       <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-background to-transparent h-32 z-10" />
 
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 text-center">
-        <p className="text-muted-foreground text-sm mb-2">
-          The strategic goal remained constant
+        <p className="text-muted-foreground text-sm mb-2 font-serif italic">
+          Стратегическая цель осталась неизменной
         </p>
         <h1 className="font-serif text-2xl lg:text-4xl font-bold mb-2">
-          Two Leaps, One Russia
+          Два прыжка, одна Россия
         </h1>
-        <p className="text-muted-foreground max-w-xl mx-auto">
-          A century-long struggle for industrial power through radically different paths
+        <p className="text-muted-foreground max-w-xl mx-auto font-serif">
+          Столетняя борьба за промышленную мощь через радикально различные пути
         </p>
       </div>
     </section>

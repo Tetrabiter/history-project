@@ -9,65 +9,65 @@ const timelineEvents = [
     id: 1,
     year: 1837,
     era: "imperial",
-    title: "First Russian Railway",
-    summary: "Tsarskoye Selo Railway opens, connecting St. Petersburg to the imperial residence.",
-    details: "Russia's first public railway marked the beginning of railroad development, though it was primarily for imperial convenience rather than industrial transport.",
+    title: "Первая русская железная дорога",
+    summary: "Железная дорога Царского села связывает Санкт-Петербург с имперской резиденцией.",
+    details: "Первая русская железная дорога положила начало развитию железнодорожного транспорта, хотя служила в основном для имперского удобства, а не для промышленных нужд.",
   },
   {
     id: 2,
     year: 1861,
     era: "imperial",
-    title: "Emancipation of Serfs",
-    summary: "Alexander II frees 23 million serfs, creating a potential industrial workforce.",
-    details: "While intended to modernize Russia, the emancipation left many peasants in debt and tied to the land, limiting labor mobility for factories.",
+    title: "Освобождение крестьян",
+    summary: "Александр II освобождает 23 миллиона крепостных, создавая потенциальную рабочую силу.",
+    details: "Хотя освобождение имело целью модернизировать Россию, многие крестьяне остались в долгах и привязаны к земле, ограничивая мобильность рабочей силы.",
   },
   {
     id: 3,
     year: 1891,
     era: "imperial",
-    title: "Trans-Siberian Railway Begins",
-    summary: "Construction starts on the world's longest railway, spanning 9,289 km.",
-    details: "Funded by foreign investment and state bonds, this massive project symbolized imperial ambition but strained the treasury.",
+    title: "Начало строительства Транссиба",
+    summary: "Строительство самой длинной железной дороги в мире, протяженностью 9 289 км.",
+    details: "Финансируемый иностранными инвестициями и государственными облигациями, этот огромный проект символизировал имперские амбиции, но истощал казну.",
   },
   {
     id: 4,
     year: 1905,
     era: "imperial",
-    title: "Revolution and Reform",
-    summary: "First Russian Revolution forces concessions, including the Duma parliament.",
-    details: "Industrial unrest and military defeat in Japan exposed the failures of rapid but uneven industrialization under tsarism.",
+    title: "Революция и реформы",
+    summary: "Первая русская революция вынуждает концессии, включая парламент Думу.",
+    details: "Рабочее восстание и военное поражение от Японии показали неудачи быстрой, но неравномерной индустриализации при царизме.",
   },
   {
     id: 5,
     year: 1928,
     era: "soviet",
-    title: "First Five-Year Plan",
-    summary: "Stalin launches forced industrialization with ambitious production targets.",
-    details: "Rejecting market mechanisms, the state set production quotas that prioritized heavy industry over consumer goods.",
+    title: "Первый пятилетний план",
+    summary: "Сталин запускает принудительную индустриализацию с амбициозными плановыми целями.",
+    details: "Отвергнув рыночные механизмы, государство устанавливало производственные квоты, приоритизируя тяжелую промышленность над товарами потребления.",
   },
   {
     id: 6,
     year: 1932,
     era: "soviet",
-    title: "Holodomor Famine",
-    summary: "Collectivization causes catastrophic famine killing millions in Ukraine.",
-    details: "Agricultural collectivization funded industrialization by extracting grain for export, resulting in mass starvation.",
+    title: "Голодомор",
+    summary: "Коллективизация вызывает катастрофический голод, унесший миллионы жизней на Украине.",
+    details: "Сельскохозяйственная коллективизация финансировала индустриализацию путем экспорта зерна, в результате чего произошел массовый голод.",
   },
   {
     id: 7,
     year: 1936,
     era: "soviet",
-    title: "Second Five-Year Plan Completed",
-    summary: "Soviet industrial output quadruples, but at enormous human cost.",
-    details: "The Gulag system provided forced labor for major construction projects while terror purges eliminated perceived opposition.",
+    title: "Второй пятилетний план завершен",
+    summary: "Советский промышленный выпуск увеличивается в четыре раза огромной ценой.",
+    details: "Система Гулага обеспечивала принудительный труд для крупных строительных проектов, а чистки террора устраняли предполагаемую оппозицию.",
   },
   {
     id: 8,
     year: 1941,
     era: "soviet",
-    title: "Industrial Capacity Tested",
-    summary: "Nazi invasion proves Soviet industrial base capable of total war.",
-    details: "The relocated factories east of the Urals produced weapons at unprecedented rates, validating the strategic focus on heavy industry.",
+    title: "Проверка промышленной мощи",
+    summary: "Нацистское вторжение доказывает способность советской промышленности к полной войне.",
+    details: "Перемещенные на восток от Урала заводы производили оружие беспрецедентными темпами, подтверждая стратегический фокус на тяжелую промышленность.",
   },
 ];
 
@@ -152,11 +152,11 @@ export function Timeline() {
       <div className="max-w-4xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-serif text-3xl lg:text-4xl font-bold mb-4">
-            Timeline of Industrialization
+            Хронология индустриализации
           </h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto">
-            Key events from Imperial railways to Soviet Five-Year Plans, 
-            tracing Russia's path to industrial power.
+          <p className="text-muted-foreground max-w-2xl mx-auto font-serif">
+            Ключевые события от имперских железных дорог до советских пятилетних планов, 
+            прослеживая путь России к промышленной мощи.
           </p>
         </div>
 

@@ -7,53 +7,53 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 py-12">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="font-serif text-lg font-bold mb-4">Two Leaps, One Russia</h3>
-            <p className="text-muted-foreground text-sm leading-relaxed">
-              A comparative historical analysis of Imperial Russian and Soviet 
-              industrialization strategies, methods, and outcomes.
+            <h3 className="font-serif text-lg font-bold mb-4">Два прыжка, одна Россия</h3>
+            <p className="text-muted-foreground text-sm leading-relaxed font-serif">
+              Сравнительное историческое исследование стратегий, методов и результатов 
+              имперской российской и советской индустриализации.
             </p>
           </div>
           <div>
-            <h4 className="font-semibold mb-4">Sections</h4>
-            <ul className="space-y-2 text-sm text-muted-foreground">
+            <h4 className="font-semibold mb-4 font-serif">Разделы</h4>
+            <ul className="space-y-2 text-sm text-muted-foreground font-serif">
               <li>
                 <Link href="/timeline">
-                  <span className="hover:text-foreground cursor-pointer">Timeline</span>
+                  <span className="hover:text-foreground cursor-pointer">Хронология</span>
                 </Link>
               </li>
               <li>
                 <Link href="/comparison">
-                  <span className="hover:text-foreground cursor-pointer">Comparison</span>
+                  <span className="hover:text-foreground cursor-pointer">Сравнение</span>
                 </Link>
               </li>
               <li>
                 <Link href="/price-of-progress">
-                  <span className="hover:text-foreground cursor-pointer">Price of Progress</span>
+                  <span className="hover:text-foreground cursor-pointer">Цена прогресса</span>
                 </Link>
               </li>
               <li>
                 <Link href="/presentations">
-                  <span className="hover:text-foreground cursor-pointer">Presentations</span>
+                  <span className="hover:text-foreground cursor-pointer">Анализ</span>
                 </Link>
               </li>
               <li>
                 <Link href="/sources">
-                  <span className="hover:text-foreground cursor-pointer">Sources</span>
+                  <span className="hover:text-foreground cursor-pointer">Источники</span>
                 </Link>
               </li>
             </ul>
           </div>
           <div>
-            <h4 className="font-semibold mb-4">Historical Period</h4>
-            <ul className="space-y-2 text-sm text-muted-foreground">
-              <li>Imperial Era: 1830s - 1913</li>
-              <li>Soviet Era: 1928 - 1941</li>
+            <h4 className="font-semibold mb-4 font-serif">Исторические периоды</h4>
+            <ul className="space-y-2 text-sm text-muted-foreground font-serif">
+              <li>Имперская эра: 1830-е – 1913 г.</li>
+              <li>Советская эра: 1928–1941 г.</li>
             </ul>
           </div>
         </div>
         <Separator className="mb-8" />
-        <div className="text-center text-sm text-muted-foreground">
-          <p>Historical Research Project</p>
+        <div className="text-center text-sm text-muted-foreground font-serif">
+          <p>Исторический исследовательский проект</p>
         </div>
       </div>
     </footer>

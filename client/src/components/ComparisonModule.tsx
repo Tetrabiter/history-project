@@ -17,81 +17,81 @@ import {
 const comparisonData = {
   funding: {
     imperial: {
-      title: "Foreign Investment & Bonds",
+      title: "Иностранные инвестиции и облигации",
       points: [
-        "Heavy reliance on French and Belgian capital",
-        "State-guaranteed railway bonds",
-        "Gold standard adoption (1897)",
-        "Trade surplus from grain exports",
+        "Сильная зависимость от французского и бельгийского капитала",
+        "Государственные гарантии по железнодорожным облигациям",
+        "Принятие золотого стандарта (1897)",
+        "Торговый профицит от экспорта зерна",
       ],
     },
     soviet: {
-      title: "Forced Extraction",
+      title: "Принудительное изъятие",
       points: [
-        "Collectivization of agriculture",
-        "Grain exports during famine",
-        "Suppressed consumer goods",
-        "Gulag forced labor system",
+        "Коллективизация сельского хозяйства",
+        "Экспорт зерна во время голода",
+        "Подавление потребительских товаров",
+        "Система принудительного труда Гулага",
       ],
     },
   },
   methods: {
     imperial: {
-      title: "State-Guided Capitalism",
+      title: "Государственный капитализм",
       points: [
-        "Private enterprise with state contracts",
-        "Protective tariffs for industry",
-        "Technical schools and foreign experts",
-        "Gradual infrastructure expansion",
+        "Частные предприятия с государственными контрактами",
+        "Защитные тарифы для промышленности",
+        "Технические школы и иностранные эксперты",
+        "Постепенное расширение инфраструктуры",
       ],
     },
     soviet: {
-      title: "Command Economy",
+      title: "Командная экономика",
       points: [
-        "Central planning (Gosplan)",
-        "Mandatory production quotas",
-        "Nationalized industry",
-        "Rapid forced collectivization",
+        "Центральное планирование (Госплан)",
+        "Обязательные производственные квоты",
+        "Национализированная промышленность",
+        "Быстрая принудительная коллективизация",
       ],
     },
   },
   outcomes: {
     imperial: {
-      title: "Uneven Development",
+      title: "Неравномерное развитие",
       points: [
-        "World's 5th largest industrial economy by 1913",
-        "Railway network expanded 10x",
-        "Persistent agricultural backwardness",
-        "Social instability and revolution",
+        "5-я по величине промышленная экономика в мире к 1913 г.",
+        "Сеть железных дорог расширена в 10 раз",
+        "Постоянная отсталость сельского хозяйства",
+        "Социальная нестабильность и революция",
       ],
     },
     soviet: {
-      title: "Military-Industrial Power",
+      title: "Военно-промышленная мощь",
       points: [
-        "Industrial output quadrupled 1928-1940",
-        "Self-sufficient in heavy industry",
-        "Capable of fighting total war",
-        "Millions dead from famine and purges",
+        "Промышленный выпуск увеличен в четыре раза (1928–1940)",
+        "Самодостаточность в тяжелой промышленности",
+        "Способность вести полную войну",
+        "Миллионы погибших от голода и чисток",
       ],
     },
   },
   goals: {
     imperial: {
-      title: "Catch Up to Europe",
+      title: "Догнать Европу",
       points: [
-        "Great power status maintenance",
-        "Military modernization",
-        "Integration into world economy",
-        "Preserve autocratic order",
+        "Сохранение статуса великой державы",
+        "Военная модернизация",
+        "Интеграция в мировую экономику",
+        "Сохранение автократического порядка",
       ],
     },
     soviet: {
-      title: "Build Socialism",
+      title: "Построить социализм",
       points: [
-        "Overcome capitalist encirclement",
-        "Create workers' state",
-        "Achieve economic autarky",
-        "Prepare for inevitable war",
+        "Преодолеть капиталистическое окружение",
+        "Создать рабочее государство",
+        "Достичь экономической автаркии",
+        "Подготовиться к неизбежной войне",
       ],
     },
   },
@@ -112,11 +112,11 @@ export function ComparisonModule() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-serif text-3xl lg:text-4xl font-bold mb-4">
-            Comparative Analysis
+            Сравнительный анализ
           </h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto">
-            Two radically different approaches to the same strategic goal: 
-            transforming an agrarian empire into an industrial power.
+          <p className="text-muted-foreground max-w-2xl mx-auto font-serif">
+            Два радикально различных подхода к одной стратегической цели: 
+            превращение аграрной империи в промышленную державу.
           </p>
         </div>
 
@@ -130,7 +130,7 @@ export function ComparisonModule() {
                 data-testid={`tab-${cat.key}`}
               >
                 <cat.icon className="w-4 h-4" />
-                <span className="hidden sm:inline">{cat.label}</span>
+                <span className="hidden sm:inline text-xs">{cat.label === "Funding" ? "Финансы" : cat.label === "Methods" ? "Методы" : cat.label === "Outcomes" ? "Результаты" : "Цели"}</span>
               </TabsTrigger>
             ))}
           </TabsList>
@@ -138,17 +138,17 @@ export function ComparisonModule() {
           {categories.map((cat) => (
             <TabsContent key={cat.key} value={cat.key}>
               <div className="grid lg:grid-cols-2 gap-6">
-                <Card className="border-amber-600/30 dark:border-amber-500/30">
+                <Card className="border-amber-600/30 dark:border-amber-500/30 shadow-md hover-elevate">
                   <CardHeader>
                     <div className="flex items-center gap-3">
                       <div className="p-2 rounded-md bg-amber-100 dark:bg-amber-900/30">
                         <Factory className="w-5 h-5 text-amber-700 dark:text-amber-400" />
                       </div>
                       <div>
-                        <Badge variant="outline" className="mb-1 border-amber-600/50 text-amber-700 dark:text-amber-400">
-                          Imperial Russia
+                        <Badge variant="outline" className="mb-1 border-amber-600/50 text-amber-700 dark:text-amber-400 font-serif text-xs">
+                          Империя
                         </Badge>
-                        <CardTitle className="text-xl font-serif">
+                        <CardTitle className="text-xl font-serif italic">
                           {comparisonData[cat.key as keyof typeof comparisonData].imperial.title}
                         </CardTitle>
                       </div>
@@ -160,7 +160,7 @@ export function ComparisonModule() {
                         (point, idx) => (
                           <li key={idx} className="flex items-start gap-2">
                             <div className="w-1.5 h-1.5 rounded-full bg-amber-600 mt-2 flex-shrink-0" />
-                            <span className="text-muted-foreground">{point}</span>
+                            <span className="text-muted-foreground font-serif">{point}</span>
                           </li>
                         )
                       )}
@@ -168,17 +168,17 @@ export function ComparisonModule() {
                   </CardContent>
                 </Card>
 
-                <Card className="border-red-600/30 dark:border-red-500/30">
+                <Card className="border-red-700 dark:border-red-600 bg-black/50 dark:bg-black/70 shadow-md hover-elevate">
                   <CardHeader>
                     <div className="flex items-center gap-3">
-                      <div className="p-2 rounded-md bg-red-100 dark:bg-red-900/30">
-                        <Hammer className="w-5 h-5 text-red-700 dark:text-red-400" />
+                      <div className="p-2 rounded-md bg-red-900 dark:bg-red-950">
+                        <Hammer className="w-5 h-5 text-red-300 dark:text-red-200" />
                       </div>
                       <div>
-                        <Badge variant="outline" className="mb-1 border-red-600/50 text-red-700 dark:text-red-400">
-                          Soviet Union
+                        <Badge variant="outline" className="mb-1 border-red-600 text-red-300 dark:text-red-200 font-sans font-bold text-xs uppercase tracking-wider">
+                          СССР
                         </Badge>
-                        <CardTitle className="text-xl font-serif">
+                        <CardTitle className="text-xl font-sans uppercase font-bold tracking-wide text-red-100 dark:text-red-200">
                           {comparisonData[cat.key as keyof typeof comparisonData].soviet.title}
                         </CardTitle>
                       </div>
@@ -190,7 +190,7 @@ export function ComparisonModule() {
                         (point, idx) => (
                           <li key={idx} className="flex items-start gap-2">
                             <div className="w-1.5 h-1.5 rounded-full bg-red-600 mt-2 flex-shrink-0" />
-                            <span className="text-muted-foreground">{point}</span>
+                            <span className="text-red-100 dark:text-red-200 font-sans font-light">{point}</span>
                           </li>
                         )
                       )}

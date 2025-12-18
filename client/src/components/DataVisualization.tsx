@@ -38,30 +38,30 @@ const humanCost = [
 const keyStats = [
   {
     icon: TrendingUp,
-    label: "Imperial Growth",
+    label: "Имперский рост",
     value: "5.7%",
-    description: "Average annual industrial growth 1885-1913",
+    description: "Среднегодовой рост промышленности 1885–1913",
     era: "imperial",
   },
   {
     icon: Factory,
-    label: "Soviet Output",
+    label: "Советский выпуск",
     value: "4x",
-    description: "Industrial output increase 1928-1940",
+    description: "Увеличение промышленного выпуска 1928–1940",
     era: "soviet",
   },
   {
     icon: Users,
-    label: "Labor Force",
+    label: "Рабочая сила",
     value: "3.5M",
-    description: "Factory workers in Russia by 1913",
+    description: "Фабричных рабочих в России к 1913 г.",
     era: "imperial",
   },
   {
     icon: Skull,
-    label: "Human Cost",
+    label: "Человеческие потери",
     value: "~10M",
-    description: "Estimated deaths from collectivization & purges",
+    description: "Смерти от коллективизации и чисток",
     era: "soviet",
   },
 ];
@@ -72,11 +72,11 @@ export function DataVisualization() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-serif text-3xl lg:text-4xl font-bold mb-4">
-            The Price of Progress
+            Цена прогресса
           </h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto">
-            Quantifying the costs and achievements of industrialization 
-            across both eras through data and statistics.
+          <p className="text-muted-foreground max-w-2xl mx-auto font-serif">
+            Количественная оценка затрат и достижений индустриализации 
+            в обоих периодах через данные и статистику.
           </p>
         </div>
 
@@ -124,9 +124,9 @@ export function DataVisualization() {
         <div className="grid lg:grid-cols-2 gap-6">
           <Card>
             <CardHeader>
-              <CardTitle className="font-serif">Industrial Output Index</CardTitle>
-              <CardDescription>
-                Relative industrial production (base year = 100)
+              <CardTitle className="font-serif">Индекс промышленного выпуска</CardTitle>
+              <CardDescription className="font-serif">
+                Относительное промышленное производство (базовый год = 100)
               </CardDescription>
             </CardHeader>
             <CardContent>
@@ -156,7 +156,7 @@ export function DataVisualization() {
                       dataKey="imperial"
                       stroke="#b45309"
                       strokeWidth={2}
-                      name="Imperial Russia"
+                      name="Имперская Россия"
                       connectNulls={false}
                     />
                     <Line
@@ -164,7 +164,7 @@ export function DataVisualization() {
                       dataKey="soviet"
                       stroke="#dc2626"
                       strokeWidth={2}
-                      name="Soviet Union"
+                      name="Советский Союз"
                       connectNulls={false}
                     />
                   </LineChart>
@@ -175,9 +175,9 @@ export function DataVisualization() {
 
           <Card>
             <CardHeader>
-              <CardTitle className="font-serif">Human Cost Comparison</CardTitle>
-              <CardDescription>
-                Estimated deaths in millions by category
+              <CardTitle className="font-serif">Сравнение человеческих потерь</CardTitle>
+              <CardDescription className="font-serif">
+                Приблизительное число погибших в миллионах по категориям
               </CardDescription>
             </CardHeader>
             <CardContent>
@@ -205,8 +205,8 @@ export function DataVisualization() {
                       }}
                     />
                     <Legend />
-                    <Bar dataKey="imperial" fill="#b45309" name="Imperial" />
-                    <Bar dataKey="soviet" fill="#dc2626" name="Soviet" />
+                    <Bar dataKey="imperial" fill="#b45309" name="Империя" />
+                    <Bar dataKey="soviet" fill="#dc2626" name="СССР" />
                   </BarChart>
                 </ResponsiveContainer>
               </div>

@@ -5,12 +5,12 @@ import { ThemeToggle } from "./ThemeToggle";
 import { Menu, X } from "lucide-react";
 
 const navItems = [
-  { label: "Home", href: "/" },
-  { label: "Timeline", href: "/timeline" },
-  { label: "Comparison", href: "/comparison" },
-  { label: "Price of Progress", href: "/price-of-progress" },
-  { label: "Presentations", href: "/presentations" },
-  { label: "Sources", href: "/sources" },
+  { label: "Главная", href: "/" },
+  { label: "Хронология", href: "/timeline" },
+  { label: "Сравнение", href: "/comparison" },
+  { label: "Цена прогресса", href: "/price-of-progress" },
+  { label: "Анализ", href: "/presentations" },
+  { label: "Источники", href: "/sources" },
 ];
 
 export function Navigation() {
@@ -39,7 +39,7 @@ export function Navigation() {
             className="font-serif text-lg font-bold cursor-pointer"
             data-testid="link-logo"
           >
-            Two Leaps, One Russia
+            Два прыжка, одна Россия
           </span>
         </Link>
 

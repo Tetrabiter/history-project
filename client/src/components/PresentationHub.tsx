@@ -23,62 +23,62 @@ import {
 const presentations = [
   {
     id: 1,
-    title: "Continuity vs. Rupture",
+    title: "Преемственность vs. Разрыв",
     icon: GitFork,
-    summary: "Did the Soviets build on Tsarist foundations or start anew?",
-    content: `The question of continuity versus rupture remains central to understanding Russian industrialization. While the Bolsheviks rejected the capitalist market mechanisms of the imperial era, they inherited and expanded upon key elements: the strategic focus on railways and heavy industry, the tradition of state intervention in the economy, and the goal of military-industrial self-sufficiency.
+    summary: "Советские строили на основе царского наследства или начали с нуля?",
+    content: `Вопрос о преемственности и разрыве остается центральным для понимания русской индустриализации. Хотя большевики отвергли капиталистические рыночные механизмы имперской эры, они унаследовали и расширили ключевые элементы: стратегический фокус на железные дороги и тяжелую промышленность, традицию государственного вмешательства в экономику и цель военно-промышленной самодостаточности.
 
-The methods, however, represented a total transformation. Imperial Russia integrated into global capital markets; the USSR pursued autarky. The Tsars relied on foreign expertise and investment; Stalin demanded indigenous development and expelled foreign capital. Most dramatically, the social contract shifted from gradual modernization within existing class structures to revolutionary transformation through violence and coercion.`,
+Методы, однако, представляли полную трансформацию. Имперская Россия интегрировалась в глобальные капиталистические рынки; СССР преследовал автаркию. Цари полагались на иностранных экспертов и инвестиции; Сталин требовал собственного развития и выгонял иностранный капитал. Наиболее драматично, общественный договор сместился от постепенной модернизации в рамках существующих классовых структур к революционному преобразованию через насилие и принуждение.`,
     era: "mixed",
   },
   {
     id: 2,
-    title: "The Role of the State",
+    title: "Роль государства",
     icon: Scale,
-    summary: "From protectionist policies to total command economy.",
-    content: `Both eras featured strong state involvement in industrialization, but the nature and extent differed fundamentally. Under Witte's reforms, the imperial state provided tariff protection, guaranteed railway bonds, and directed foreign investment toward strategic sectors while maintaining private ownership and market mechanisms.
+    summary: "От протекционистской политики к полной командной экономике.",
+    content: `Обе эры отличались сильным государственным участием в индустриализации, но характер и масштаб принципиально различались. При реформах Витте имперское государство обеспечивало тарифную защиту, гарантировало железнодорожные облигации и направляло иностранные инвестиции в стратегические сектора, поддерживая частную собственность и рыночные механизмы.
 
-The Soviet command economy eliminated private property in the means of production and replaced market signals with central planning through Gosplan. Production targets, resource allocation, and prices were determined administratively rather than through supply and demand. This enabled rapid forced industrialization but created systemic inefficiencies that would plague the Soviet economy throughout its existence.`,
+Советская командная экономика устранила частную собственность на средства производства и заменила рыночные сигналы центральным планированием через Госплан. Производственные целевые показатели, распределение ресурсов и цены определялись администратором, а не спросом и предложением. Это позволило быстрой принудительной индустриализации, но создало системные неэффективности, которые мучили советскую экономику на протяжении всего ее существования.`,
     era: "mixed",
   },
   {
     id: 3,
-    title: "Foreign Capital & Dependency",
+    title: "Иностранный капитал и зависимость",
     icon: Coins,
-    summary: "From French loans to forced self-sufficiency.",
-    content: `Imperial Russia's industrialization depended heavily on foreign capital, particularly from France and Belgium. By 1914, roughly a third of all industrial capital was foreign-owned, and the Russian state was the world's largest debtor. This integration into global capitalism brought technology and expertise but created dependency and vulnerability.
+    summary: "От французских кредитов к принудительной самодостаточности.",
+    content: `Индустриализация Имперской России сильно зависела от иностранного капитала, особенно из Франции и Бельгии. К 1914 году примерно треть всего промышленного капитала была иностранной собственностью, и русское государство было крупнейшим должником в мире. Эта интеграция в мировой капитализм принесла технологию и опыт, но создала зависимость и уязвимость.
 
-Stalin's industrialization explicitly rejected this model. After repudiating Tsarist debts and expelling foreign owners during the revolution, the USSR pursued autarky—economic self-sufficiency. The Five-Year Plans prioritized heavy industry precisely to end dependence on capitalist economies for machinery and armaments, even at the cost of consumer welfare.`,
+Индустриализация Сталина явно отвергла эту модель. После отказа от царских долгов и изгнания иностранных владельцев во время революции, СССР преследовал автаркию—экономическую самодостаточность. Пятилетние планы приоритизировали тяжелую промышленность именно для прекращения зависимости от капиталистических экономик в машинах и вооружениях, даже за счет благосостояния потребителей.`,
     era: "mixed",
   },
   {
     id: 4,
-    title: "Integration vs. Isolation",
+    title: "Интеграция vs. Изоляция",
     icon: Globe,
-    summary: "Global markets or socialist fortress?",
-    content: `The two industrialization models represented opposing visions of Russia's place in the world economy. Imperial Russia sought integration into the global capitalist system: joining the gold standard, attracting foreign investment, exporting grain to finance industrialization, and participating in international trade networks.
+    summary: "Глобальные рынки или социалистическая крепость?",
+    content: `Две модели индустриализации представляли противоположные видения места России в мировой экономике. Имперская Россия стремилась к интеграции в глобальную капиталистическую систему: принятию золотого стандарта, привлечению иностранных инвестиций, экспорту зерна для финансирования индустриализации и участию в международных торговых сетях.
 
-The Soviet Union, born from revolution and facing "capitalist encirclement," pursued the opposite strategy. Economic isolation was both ideological necessity and strategic choice. By building an industrial base independent of capitalist markets, the USSR aimed to survive—and eventually triumph over—its ideological enemies. This isolation protected against external economic pressure but limited access to technology and markets.`,
+Советский Союз, рожденный революцией и столкнувшийся с "капиталистическим окружением", преследовал противоположную стратегию. Экономическая изоляция была и идеологической необходимостью, и стратегическим выбором. Построив промышленную базу независимо от капиталистических рынков, СССР стремился пережить—и в конечном итоге победить—своих идеологических врагов. Эта изоляция защищала от внешнего экономического давления, но ограничивала доступ к технологиям и рынкам.`,
     era: "mixed",
   },
   {
     id: 5,
-    title: "Preparing for War",
+    title: "Подготовка к войне",
     icon: Sword,
-    summary: "Military needs as driver of industrial policy.",
-    content: `In both eras, military considerations profoundly shaped industrialization priorities. Imperial Russia's humiliating defeat in the Crimean War (1856) and near-defeat by Japan (1905) exposed technological backwardness and drove reform efforts. Railways were built for military mobility as much as economic development.
+    summary: "Военные нужды как движущая сила промышленной политики.",
+    content: `В обеих эрах военные соображения глубоко формировали приоритеты индустриализации. Позорное поражение Имперской России в Крымской войне (1856) и близкое поражение от Японии (1905) обнажили технологическую отсталость и спровоцировали реформы. Железные дороги строились для военной мобильности столько же, сколько для экономического развития.
 
-Soviet industrialization was even more explicitly militarized. Stalin's famous 1931 speech declared: "We are fifty or a hundred years behind the advanced countries. We must make good this distance in ten years. Either we do it, or they crush us." The First Five-Year Plan prioritized precisely those heavy industries—steel, machinery, armaments—needed for modern warfare. When Nazi Germany invaded in 1941, this industrial base proved decisive.`,
+Советская индустриализация была еще более явно милитаризирована. Знаменитая речь Сталина 1931 года провозгласила: "Мы отстаем на пятьдесят или сто лет от развитых стран. Мы должны преодолеть это расстояние за десять лет. Либо мы это сделаем, либо нас раздавят." Первый пятилетний план приоритизировал именно те тяжелые отрасли—сталь, машины, вооружения—необходимые для современной войны. Когда нацистская Германия напала в 1941 году, эта промышленная база оказалась решающей.`,
     era: "mixed",
   },
   {
     id: 6,
-    title: "Historical Legacy",
+    title: "Историческое наследие",
     icon: BookOpen,
-    summary: "Long-term consequences of each development path.",
-    content: `Both industrialization models left lasting legacies that shaped Russia's trajectory. The imperial model created islands of modernity—concentrated in St. Petersburg, Moscow, and the Donbas—while leaving the vast peasant majority largely untouched. This uneven development contributed to revolutionary instability.
+    summary: "Долгосрочные последствия каждого пути развития.",
+    content: `Обе модели индустриализации оставили долгосрочное наследие, которое формировало траекторию России. Имперская модель создала острова современности—концентрировалась в Санкт-Петербурге, Москве и Донбассе—оставляя подавляющее большинство крестьян в основном нетронутыми. Это неравномерное развитие способствовало революционной нестабильности.
 
-Soviet industrialization transformed the USSR into a superpower capable of defeating Nazi Germany and competing with the United States. But the emphasis on heavy industry over consumer goods, the destruction of private agriculture, and the legacy of terror and coercion created deep structural problems. The command economy's inefficiencies ultimately contributed to Soviet collapse in 1991, leaving Russia to once again seek a path to modernization.`,
+Советская индустриализация трансформировала СССР в сверхдержаву, способную разгромить нацистскую Германию и конкурировать с Соединенными Штатами. Но упор на тяжелую промышленность в ущерб потребительским товарам, разрушение частного сельского хозяйства и наследие террора и принуждения создали глубокие структурные проблемы. Неэффективность командной экономики в конечном итоге способствовала краху СССР в 1991 году, оставляя Россию снова искать путь к модернизации.`,
     era: "mixed",
   },
 ];
@@ -91,11 +91,11 @@ export function PresentationHub() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-serif text-3xl lg:text-4xl font-bold mb-4">
-            Key Questions & Analysis
+            Ключевые вопросы и анализ
           </h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto">
-            Explore the central themes and debates surrounding Russia's 
-            industrialization through structured historical analysis.
+          <p className="text-muted-foreground max-w-2xl mx-auto font-serif">
+            Исследуйте центральные темы и дебаты вокруг русской 
+            индустриализации через структурированный исторический анализ.
           </p>
         </div>
 
@@ -117,8 +117,8 @@ export function PresentationHub() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground text-sm mb-4">{pres.summary}</p>
-                <Button variant="ghost" size="sm" className="w-full">
-                  Read Analysis
+                <Button variant="ghost" size="sm" className="w-full font-serif">
+                  Прочитать анализ
                   <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
               </CardContent>
@@ -135,12 +135,12 @@ export function PresentationHub() {
                 <div className="p-2 rounded-md bg-primary/10">
                   <selectedPresentation.icon className="w-5 h-5 text-primary" />
                 </div>
-                <Badge variant="secondary">Historical Analysis</Badge>
+                <Badge variant="secondary" className="font-serif">Исторический анализ</Badge>
               </div>
               <DialogTitle className="font-serif text-2xl">
                 {selectedPresentation.title}
               </DialogTitle>
-              <DialogDescription>{selectedPresentation.summary}</DialogDescription>
+              <DialogDescription className="font-serif">{selectedPresentation.summary}</DialogDescription>
             </DialogHeader>
             <div className="prose prose-sm dark:prose-invert max-w-none">
               {selectedPresentation.content.split("\n\n").map((paragraph, idx) => (
