@@ -6,7 +6,7 @@ import sovietImage from "@assets/generated_images/soviet_constructivist_industri
 
 export function HeroSection() {
   return (
-    <section className="min-h-screen relative" data-testid="section-hero">
+    <section className="min-h-screen relative overflow-hidden" data-testid="section-hero">
       <div className="grid lg:grid-cols-2 min-h-screen">
         <div className="relative overflow-hidden">
           <div

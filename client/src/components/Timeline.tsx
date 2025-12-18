@@ -106,8 +106,8 @@ function TimelineEvent({ event, isLeft }: TimelineEventProps) {
               >
                 {event.year}
               </Badge>
-              <Badge variant="secondary" className="text-xs">
-                {isImperial ? "Imperial" : "Soviet"}
+              <Badge variant="secondary" className={`text-xs font-serif ${isImperial ? "" : "bg-red-900/50 text-red-100 border-red-600/50"}`}>
+                {isImperial ? "Империя" : "СССР"}
               </Badge>
             </div>
             <CardTitle className="text-lg font-serif">{event.title}</CardTitle>

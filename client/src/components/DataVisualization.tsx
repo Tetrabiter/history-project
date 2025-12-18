@@ -29,10 +29,10 @@ const industrialOutput = [
 ];
 
 const humanCost = [
-  { category: "Famine Deaths", imperial: 0.5, soviet: 7 },
-  { category: "Political Repression", imperial: 0.1, soviet: 1.5 },
-  { category: "Forced Labor", imperial: 0.2, soviet: 2 },
-  { category: "War Preparation Cost", imperial: 0.3, soviet: 1 },
+  { category: "Голод и коллективизация", imperial: 0.5, soviet: 7 },
+  { category: "Политические репрессии", imperial: 0.1, soviet: 1.5 },
+  { category: "Принудительный труд", imperial: 0.2, soviet: 2 },
+  { category: "Социальные издержки", imperial: 0.3, soviet: 1 },
 ];
 
 const keyStats = [
