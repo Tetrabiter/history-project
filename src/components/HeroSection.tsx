@@ -1,8 +1,8 @@
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Factory, Hammer } from "lucide-react";
-import imperialImage from "@assets/generated_images/imperial_russian_railway_construction.png";
-import sovietImage from "@assets/generated_images/soviet_constructivist_industrial_poster.png";
+import imperialImage from "../../public/images/imperial_russian_railway_construction.png";
+import sovietImage from "../../public/images/soviet_constructivist_industrial_poster.png";
 
 export function HeroSection() {
   return (
